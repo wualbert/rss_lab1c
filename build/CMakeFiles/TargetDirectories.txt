@@ -35,3 +35,11 @@
 /home/racecar/catkin_ws/build/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir
 /home/racecar/catkin_ws/build/gtest/googlemock/gtest/CMakeFiles/edit_cache.dir
 /home/racecar/catkin_ws/build/gtest/googlemock/gtest/CMakeFiles/test.dir
+/home/racecar/catkin_ws/build/ros_exercises/CMakeFiles/install/strip.dir
+/home/racecar/catkin_ws/build/ros_exercises/CMakeFiles/install/local.dir
+/home/racecar/catkin_ws/build/ros_exercises/CMakeFiles/install.dir
+/home/racecar/catkin_ws/build/ros_exercises/CMakeFiles/list_install_components.dir
+/home/racecar/catkin_ws/build/ros_exercises/CMakeFiles/_catkin_empty_exported_target.dir
+/home/racecar/catkin_ws/build/ros_exercises/CMakeFiles/rebuild_cache.dir
+/home/racecar/catkin_ws/build/ros_exercises/CMakeFiles/test.dir
+/home/racecar/catkin_ws/build/ros_exercises/CMakeFiles/edit_cache.dir
