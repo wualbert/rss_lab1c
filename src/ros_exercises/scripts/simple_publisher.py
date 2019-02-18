@@ -4,7 +4,7 @@ import rospy
 import random
 from std_msgs.msg import Float32
 
-pub = rospy.Publisher('my_random_float', Float32)
+pub = rospy.Publisher('my_random_float', Float32,queue_size =10)
 rospy.init_node('simple_publisher')
 rate = rospy.Rate(20)
 while not rospy.is_shutdown():
