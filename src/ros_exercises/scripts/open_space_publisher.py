@@ -5,7 +5,7 @@ from sensor_msgs.msg import LaserScan
 # from std_msgs.msg import Float32
 from ros_exercises.msg import OpenSpace
 
-pub_dist = rospy.Publisher('open_space', OpenSpace)
+pub_dist = rospy.Publisher(rospy.get_param("/Open_space_publisher/publisher_topic"),OpenSpace)
 #pub_angle = rospy.Publisher('open_space/angle', Float32)
  
 def callback(data):
@@ -25,5 +25,5 @@ def callback(data):
 #    pub_angle.publish(max_angle)
 
 rospy.init_node('open_space_publisher', anonymous=False)
-rospy.Subscriber('fake_scan', LaserScan, callback)
+rospy.Subscriber(rospy.get_param("/Open_space_publisher/subscriber_topic"), LaserScan, callback)
 rospy.spin()

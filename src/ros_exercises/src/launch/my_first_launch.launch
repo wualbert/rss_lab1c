@@ -1,0 +1,15 @@
+<launch>
+	<node name="simple_publisher" pkg="ros_exercises" type="simple_publisher.py" />
+	<node name="simple_subscriber" pkg="ros_exercises" type="simple_subscriber.py" />
+	<node name="fake_scan_publisher" pkg="ros_exercises" type="fake_scan_publisher.py" />
+		<param name="Fake_scan_publisher/topic" type="string" value="fake_scan" />
+		<param name="Fake_scan_publisher/rate" type="int" value="10" />
+		<param name="Fake_scan_publisher/angle_min" type="double" value="-2.09440" />
+		<param name="Fake_scan_publisher/angle_max" type="double" value="2.09440" />
+		<param name="Fake_scan_publisher/range_max" type="double" value="1." />
+		<param name="Fake_scan_publisher/range_min" type="double" value="10." />
+		<param name="Fake_scan_publisher/angle_increment" type="double" value="0.010472" />
+		<param name="Open_space_publisher/subscriber_topic" type="string" value="fake_scan" />
+		<param name="Open_space_publisher/publisher_topic" type="string" value="open_space" />
+	<node name="open_space_publisher" pkg="ros_exercises" type="open_space_publisher.py" />
+</launch>
